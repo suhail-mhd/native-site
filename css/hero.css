@@ -1,0 +1,31 @@
+.hero-head {
+    margin-top: 120px;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 70px;
+    line-height: 90px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+/* responsive */
+@media(max-width: 768px) {
+    .hero-head {
+        margin-top: 40px;
+        color: #fff;
+    }
+
+    .hero h1 {
+        font-size: 60px;
+    }
+}
+
+@media(max-width: 500px) {
+    .hero h1 {
+        font-size: 34px;
+    }
+}

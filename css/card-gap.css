@@ -1,0 +1,45 @@
+.card-gap {
+    position: relative;
+}
+
+.card-gap .grid {
+    overflow: visible;
+    gap: 0;
+}
+
+.card-gap .card {
+    position: relative;
+    transform: translateY(-50%);
+    padding: 30px;
+}
+
+.card-gap p {
+    padding: 10px 0;
+}
+.card-gap i {
+    font-size: 30px;
+    color: var(--secondary-color);
+    padding-bottom: 5px;
+}
+
+.card-1 {
+    background-color: #dedede;
+}
+.card-2 {
+    background-color: #333;
+    color: #fff;
+}
+
+/* responsive */
+@media(max-width: 768px) {
+    .card-gap .card {
+        width: 200px;
+        height: 250px;
+    }
+}
+
+@media(max-width: 500px) {
+    .card-gap .card {
+        margin: auto;
+    }
+}

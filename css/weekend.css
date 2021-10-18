@@ -1,0 +1,44 @@
+.weekend {
+    position: relative;
+    background-image: url(../img/weekend.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    padding: 30px;
+    overflow-x: hidden;
+}
+
+.weekend::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background: linear-gradient(to bottom, #fff, transparent);
+}
+
+.weekend-head {
+    margin-top: 50px;
+    max-width: 50%;
+}
+
+.weekend-head h1 {
+    font-size: 35px;
+}
+
+.weekend-head p {
+    padding-bottom: 15px;
+}
+
+/* responsive */
+@media(max-width: 500px) {
+    .weekend-head {
+        margin-top: 40px;
+        max-width: 100%;
+    }
+
+    .weekend-head h1 {
+        font-size: 29px;
+    }
+}

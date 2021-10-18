@@ -1,0 +1,55 @@
+.testimonials {
+    margin: 30px 0;
+}
+
+.testimonial {
+    padding-bottom: 20px;
+}
+
+.testimonial-head {
+    text-align: center;
+}
+.testimonial-head p {
+    padding: 20px 0;
+    margin-bottom: 50px;
+}
+
+.testimonials img {
+    width: 70px;
+    height: 70px;
+}
+
+.testimonial-img img {
+    border-radius: 100%;
+}
+
+.testimonial-text {
+    margin-left: 20px;
+}
+.testimonial-text .traveller-name {
+    padding: 20px 0;
+}
+
+.img-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-group img {
+    margin: 10px;
+}
+
+@media(max-width: 500px) {
+    .testimonials .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .testimonial-head {
+        margin-top: 50px;
+    }
+
+    .testimonial-head p {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,27 @@
+.tours {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.tours-head p {
+    padding: 20px 0;
+}
+
+.tours-img img {
+    margin-bottom: 5px;
+    box-shadow: 0 20px 27px rgba(0, 0, 0, 0.4);
+}
+
+.tours .bold-para {
+    padding: 5px 0;
+}
+
+.rating i {
+    color: #e3d924;
+}
+
+.tours-content {
+    padding-bottom: 20px;
+}
